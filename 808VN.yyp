@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,12 +35,22 @@
   },
   "name":"808VN",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
+    {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
+    {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
+    {"id":{"name":"obj_button_quit","path":"objects/obj_button_quit/obj_button_quit.yy",},},
+    {"id":{"name":"obj_button_settings","path":"objects/obj_button_settings/obj_button_settings.yy",},},
+    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"id":{"name":"s_button","path":"sprites/s_button/s_button.yy",},},
+    {"id":{"name":"s_menu_background","path":"sprites/s_menu_background/s_menu_background.yy",},},
+    {"id":{"name":"s_menu_darkbox","path":"sprites/s_menu_darkbox/s_menu_darkbox.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
